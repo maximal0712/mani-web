@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Mani – Datenschutz (Entwurf)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body><main>
+  <nav aria-label="Rechtliche Informationen"><a href="impressum.html">Impressum</a><a href="privacy.html" aria-current="page">Datenschutz</a><a href="terms.html">Nutzungsbedingungen</a></nav>
+  <p class="draft"><strong>Lokaler Entwurf – nicht zur Veröffentlichung freigegeben.</strong> Die unten gekennzeichneten Vertrags-, Rechtsgrundlagen-, Speicherfrist- und Drittlandfragen sind vor Veröffentlichung zu klären. Technischer Stand des MVP, keine Zusicherung nicht geprüfter Infrastruktur-Einstellungen.</p>
+  <h1>Datenschutz bei Mani</h1>
+  <h2>1. Verantwortlicher und Kontakt</h2>
+  <address>Punchline, Maximilian Kreuz<br>Ricarda-Huch-Str. 1<br>80807 München, Deutschland<br><a href="mailto:info@punchlinedesign.com">info@punchlinedesign.com</a></address>
+  <h2>2. Lokaler Vorschaumodus und Cloud</h2>
+  <p>Mani bietet einen ausdrücklich auswählbaren lokalen Vorschaumodus. Die dort eingegebenen Inhalte werden lokal gespeichert und nicht als Cloud- oder KI-Anfragen synchronisiert. Dieser Modus ersetzt einen Cloud-Fehler nicht automatisch. Eine Web-Vorschau oder das Laden der App kann unabhängig davon technische Netzwerkzugriffe benötigen.</p>
+  <p>Im Cloud-Modus verwendet Mani ein eigenes Supabase-Projekt für Anmeldung, Datenbank und Bildspeicherung. Auch eine anonyme Anmeldung erzeugt eine technische Nutzerkennung; „anonym“ bedeutet hier nicht, dass sämtliche Daten anonymisiert wären. Daten werden dem jeweiligen Konto zugeordnet und der Zugriff durch nutzerbezogene Berechtigungen beschränkt.</p>
+  <h2>3. Welche Daten verarbeitet werden</h2>
+  <ul>
+    <li>Freiwillige Profilangaben wie Name, Alter, Interessen, aktuelle Lebenssituation, Zukunftswünsche, Werte sowie die zugehörigen Fragen und Änderungszeitpunkte.</li>
+    <li>Visionstitel, Kategorien, Bedeutungen, ausgewählte Bilder, persönliche Ziele, Notizen und zusätzliche Kontexttexte.</li>
+    <li>Generierte Zusammenfassungen und Zukunftsgeschichten, Quellenreferenzen und deine Korrekturen.</li>
+    <li>Kontokennungen, Sitzungsdaten sowie technische Nutzungszähler und Sperren zur Begrenzung von KI-Anfragen.</li>
+    <li>Bei Apple-Verknüpfung: von Apple bereitgestellte Anmeldekennungen und gegebenenfalls der freigegebene Name. Die App fordert im aktuellen Anmeldefluss keine gesonderte E-Mail-Freigabe an.</li>
+    <li>Bei Käufen: Produkt- und Transaktionskennungen, Kontozuordnung, Abonnementstatus, Laufzeit und Test- oder Produktionsumgebung. Zahlungsdaten wie Kartennummern werden nicht vom Mani-Kaufclient erhoben.</li>
+  </ul>
+  <h2>4. Optionale KI-Verarbeitung mit Google Gemini</h2>
+  <p>Wenn du eine KI-Zusammenfassung oder Story anforderst, verarbeitet der Mani-Server den dafür ausgewählten Textkontext und übermittelt ihn an die Google Gemini API. Visionstitel, Kategorien und Bedeutungen gehören zum Kontext. Die Zusammenfassungsfunktion berücksichtigt auch gespeicherte Profilantworten, Zusatzkontext, Ziele und Korrekturen. Bei der Story kann persönlicher Kontext hinzugewählt werden. Notizen werden nur bei aktivierter entsprechender Auswahl einbezogen.</p>
+  <p>Der Kontext kann Originalfragen, interne Quellenkennungen und Zeitstempel enthalten. Deshalb ist er nicht als anonymisiert zu betrachten. Der aktuelle KI-Kontext enthält keine Bilddateien, Bild-URLs oder Audioaufnahmen. Frühere KI-Ausgaben werden nicht als Tatsachenquelle in den neuen Kontext geladen.</p>
+  <p>KI-Ausgaben werden im Cloud-Konto gespeichert. Das Ausschalten einer zukünftigen Kontextauswahl löscht zuvor übermittelte Eingaben oder gespeicherte Ausgaben nicht rückwirkend. Gib möglichst keine besonders sensiblen Daten, etwa Gesundheitsdaten, und keine vertraulichen Angaben über andere Personen ein.</p>
+  <p><strong>Vor Freigabe zu prüfen:</strong> Google-Vertragspartner, aktivierter kostenpflichtiger API-/Abrechnungsmodus, Vereinbarung zur Auftragsverarbeitung, tatsächliche Aufbewahrung und Nutzung von Eingaben durch Google. Solange dies ungeprüft ist, wird insbesondere keine Zusage „kein Training mit deinen Daten“ gemacht.</p>
+  <h2>5. Apple, Gerätefunktionen und lokale Speicherung</h2>
+  <p>Apple wickelt Apple-Anmeldung und In-App-Käufe ab. Der Mani-Server prüft Kaufdaten über Apples App Store Server API und empfängt gegebenenfalls Abonnementbenachrichtigungen von Apple. Hierfür wird eine Kontokennung zur Zuordnung des Kaufs verwendet.</p>
+  <p>Die App speichert Einstellungen und Anmeldesitzungen im lokalen App-Speicher. Bilder und ausgewählte Visionen können für das iOS-Widget in einem gemeinsam mit der Widget-Erweiterung verwendeten Gerätebereich gespeichert werden. Inhalte auf Widgets und in Erinnerungen können für andere Personen sichtbar sein, die dein Gerät sehen.</p>
+  <p>Erinnerungen werden mit deiner Gerätefreigabe lokal geplant und können Notiztext anzeigen. Dafür verwendet Mani keinen Remote-Push-Dienst. Cloud-Notizen werden unabhängig von Erinnerungen synchronisiert. Der Zugriff auf ausgewählte Fotos dient deren Verwendung als Visionen; im Cloud-Modus werden diese Bilder in den privaten Bildspeicher hochgeladen.</p>
+  <h2>6. Zwecke und Rechtsgrundlagen – vor Freigabe bestätigen</h2>
+  <p>Vorgesehen ist die Verarbeitung notwendiger Konto-, Speicher- und Kaufdaten zur Bereitstellung der angeforderten Funktionen auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO. Technische Sicherheits- und Missbrauchsschutzmaßnahmen können auf Art. 6 Abs. 1 lit. f DSGVO beruhen; das berechtigte Interesse ist der sichere Betrieb.</p>
+  <p>Für optionale KI-Verarbeitung ist die konkrete Rechtsgrundlage einschließlich etwaiger Einwilligung vor Veröffentlichung festzulegen und im Produkt umzusetzen. Eine Schaltfläche oder Betriebssystemfreigabe allein ersetzt nicht automatisch eine wirksame datenschutzrechtliche Einwilligung. Werden besondere Datenkategorien verarbeitet, sind zusätzlich die Anforderungen des Art. 9 DSGVO zu prüfen.</p>
+  <h2>7. Empfänger und internationale Verarbeitung</h2>
+  <p>Technisch beteiligt sind Supabase für das Backend, Google für angeforderte Gemini-Generierungen und Apple für Apple-Dienste. Im geprüften App-Code ist kein separates Werbe- oder Analyse-SDK eingebunden. Die Anbieter können technische Verbindungs- und Sicherheitsdaten verarbeiten.</p>
+  <p><strong>Vor Freigabe zu ergänzen:</strong> jeweilige vertragliche Gesellschaften, Supabase-Projektregion, Auftragsverarbeitungsverträge, Unterauftragnehmer, tatsächliche Drittlandübermittlungen und geeignete Garantien gemäß Art. 44 ff. DSGVO. Eine ausschließliche Verarbeitung in der EU wird derzeit nicht zugesichert.</p>
+  <h2>8. Speicherdauer und Löschung</h2>
+  <p>Gespeicherte Cloud-Inhalte bleiben derzeit grundsätzlich dem Konto zugeordnet, bis sie gelöscht oder ersetzt werden. Abmelden oder Deinstallieren löscht Cloud-Daten nicht automatisch und beendet kein Apple-Abonnement. Eine vollständige Kontolöschung ist im aktuellen MVP noch nicht als Selbstbedienungsfunktion umgesetzt. Für Löschungs- und Auskunftsanfragen verwende die oben genannte Kontaktadresse.</p>
+  <p><strong>Vor Freigabe festzulegen:</strong> verbindliche Fristen für Konten, Bilder, KI-Ergebnisse, Korrekturen, Transaktionsdaten, Sicherheitsprotokolle und Backups; außerdem ein getesteter Kontolöschungsprozess, der Bildspeicher und lokale Kopien berücksichtigt. Aufbewahrungsfristen von Google, Supabase und Apple sind gesondert zu prüfen.</p>
+  <h2>9. Deine Rechte</h2>
+  <p>Unter den gesetzlichen Voraussetzungen hast du Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Beruht eine Verarbeitung auf Einwilligung, kannst du diese für die Zukunft widerrufen. Bei Verarbeitungen auf Grundlage berechtigter Interessen besteht unter den Voraussetzungen des Art. 21 DSGVO ein Widerspruchsrecht.</p>
+  <p>Du kannst dich bei einer Datenschutzaufsichtsbehörde beschweren, insbesondere an deinem Aufenthaltsort, Arbeitsplatz oder am Ort des vermuteten Verstoßes. Für private Unternehmen in Bayern ist grundsätzlich das Bayerische Landesamt für Datenschutzaufsicht zuständig: <a href="https://www.lda.bayern.de/">www.lda.bayern.de</a>.</p>
+  <footer>Mani · Entwurfsstand: 27. September 2026</footer>
+</main></body>
+</html>
